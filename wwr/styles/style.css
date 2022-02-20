@@ -29,7 +29,7 @@ main section{
 body {
     background: #cde1e4;
     background: linear-gradient(0deg, rgba(205,225,228,1) 46%, rgba(255,255,255,1) 53%); 
-    font-family: 'Spartan', 'Tahoma', 'Ariel', sans-serif;
+    font-family: 'Spartan', sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -39,7 +39,7 @@ h2 {
 }
 header {
     background-color:#594236;
-    font-family: 'Open Sans Condensed', 'Helvetica', 'Ariel',  sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -80,8 +80,7 @@ footer {
     font-size: 4em;
     margin-top: 10px;
     margin-bottom: 0;
-    font-family: 'Caveat', 'Rockwell', 'Ariel', cursive;
-    
+    font-family: 'Caveat', cursive;
 }
 h4{
     color:#594236;
@@ -93,7 +92,6 @@ h4{
     color:#594236;
     font-size: .8em;
     padding-bottom: 15px;
-
 }
 footer h3{
     color:#594236;
@@ -111,7 +109,6 @@ footer a:hover{
 .icon{
     width: 80px;
     padding-top: 10px;
-
 }
 footer h3 a:hover{
     text-decoration: underline;
@@ -190,7 +187,7 @@ nav{
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #816d62;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     #hero, .home-grid {
         display: block;
         height: auto;
