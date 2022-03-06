@@ -252,6 +252,7 @@ nav{
     margin: 50px;
     color:white;
     font-size: 2em;
+    font-family: 'Caveat', cursive;
 }
 .river-grid{
     text-align: center;
@@ -269,6 +270,7 @@ nav{
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #816d62;
+    margin-top: 25px;
 }
 .mainfork-msg{
         background-color:#73D2DE;
@@ -296,6 +298,7 @@ nav{
     grid-column: 2/7;
     grid-row: 9/12;
     box-shadow: 5px 5px 10px #816d62;
+    margin-top: 25px;
 }
 .graycanyon-msg{
     background-color:#73D2DE;
@@ -323,6 +326,7 @@ nav{
     grid-column: 2/7;
     grid-row: 11/14;
     box-shadow: 5px 5px 10px #816d62;
+    margin-top: 25px;
 }
 .grand-msg{
         background-color:#73D2DE;
