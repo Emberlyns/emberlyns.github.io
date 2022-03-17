@@ -5,43 +5,50 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
     <div>
-    <header>
+        <header id="top">
         <a id="logo_link" href="index.html">
             <img class="logo" src="https://emberlyns.github.io/ceramics/Images/logo.png">   
         </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="https://emberlyns.github.io/ceramics/aboutme.html">About Me</a>
-            <a href="https://emberlyns.github.io/ceramics/process.html">Process and Questions</a>
+        <nav class="nav">
+            <a class="home" href="index.html">Home</a>
+            <a class="about" href="https://emberlyns.github.io/ceramics/aboutme.html">About Me</a>
+            <a class="question" href="https://emberlyns.github.io/ceramics/process.html">Process and Questions</a>
         </nav>
     </header> 
     <div id="hero">
         <img id="hero-img" src="Images/throwing2.jpg">
     </div>
+    <h1 class="main_title">Handmade by Emberly Smith</h2>
     <main class="home-grid">
         <section class="Purpose">
             <img class="Throwing" src="Images/throwing.jpg" alt="Throwing on the Wheel">
-            <h2>Why You're Here</h2>
-            <p>I want you to come to look through my personal work and become connected with it like the way I am. I want you to come and see my pieces and be able to understand my personality from why everything is made. So, when you browse and look through my pieces, you can really see what the purpose and intention behind them. All pieces are for sale, and if you wanted anything personalized just for you, you can always reach out to me via email. I want this expereince for you to be entanting and personal. Everything here has a purpose, just like you. I want you to be able to see and understand everything they are getting if you recieve something of mine. Something you can connect with.</p>
+            <section id="purpose_script">
+                <h2 class="purpose-title">Why You're Here</h2>
+                <p class="purpose-para">I want you to come to look through my personal work and become connected with it like the way I am. I want you to come and see my pieces and be able to understand my personality from why everything is made. So, when you browse and look through my pieces, you can really see what the purpose and intention behind them. All pieces are for sale, and if you wanted anything personalized just for you, you can always reach out to me via email. I want this expereince for you to be entanting and personal. Everything here has a purpose, just like you. I want you to be able to see and understand everything they are getting if you recieve something of mine. Something you can connect with.</p>
+            </section>
         </section>
         <section class="statement">
+            <section id="statement_script">
+                <h2 class="statement-title">Artist Statement</h2>
+                <p class="statement-para">My name is Emberly Smith, and I am a ceramic artist! I was born and raised in Gilbert, Arizona and have been surrounded by art my whole life. My grandma was a huge influence on me as I created my art style. I really love expressing my love of art through three-dimensional artwork. I started in ceramics in high school, and now I am currently earing my Bachelors of Art, Emphasis Three-Dimensional with a cluster in graphic Design from Brigham Young University – Idaho. Through my formal training, I have learned many techniques and skills that have made me a better artist. My work is functional and made specifically for you. I really love the thought of having work being personal and sentimental. I really love expressing who art can be more than just a piece of work, it can be a piece of beauty, intelligence, wonder, connection, and functionality. My work can be used in the everyday life, over and over.</p>
+            </section>
             <img class="drying" src="Images/drying.jpg">
-            <h2>Artist Statement</h2>
-            <p>My name is Emberly Smith, and I am a ceramic artist! I was born and raised in Gilbert, Arizona and have been surrounded by art my whole life. My grandma was a huge influence on me as I created my art style. I really love expressing my love of art through three-dimensional artwork. I started in ceramics in high school, and now I am currently earing my Bachelors of Art, Emphasis Three-Dimensional with a cluster in graphic Design from Brigham Young University – Idaho. Through my formal training, I have learned many techniques and skills that have made me a better artist. My work is functional and made specifically for you. I really love the thought of having work being personal and sentimental. I really love expressing who art can be more than just a piece of work, it can be a piece of beauty, intelligence, wonder, connection, and functionality. My work can be used in the everyday life, over and over.</p>
         </section>
     </main>
     <footer>
-        <h3>Join the Mailing List</h3>
+        <div id="foot_info">
+        <h3 class="mail_title">Join the Mailing List</h3>
         <form method="post" action="mailto:email@example.com" >
-            <input type="email" name="email" size="15" maxlength="15" /><br />            
-            <input type="submit" value="Submit" />
+            <input type="email" name="email" size="20" maxlength="30" /><br />            
+            <input class="submit" type="submit" value="Submit" />
         </form>
         <div class="social">
             <a href="https://www.instagram.com/emberlyns/" target="_blank">
-                <img src="Images/instalogo.png" alt="instagram logo">
+                <img class="insta_logo" src="Images/instalogo.png" alt="instagram logo">
             </a>
             <a href="tel:6023203335">
                 <img class="phone" src="Images/phoneimg.png" alt="phone">
@@ -50,8 +57,9 @@
                 <img class="email" src="Images/mailimg.png" alt="Mail Image">
             </a>
         </div>
-        <h4> &copy; 2022 Handmade by Emberly Smith</h4>
-        <a href="https://emberlyns.github.io/ceramics/site-plan.html">Site Plan</a>
+        <h4 class="copy"> &copy; 2022 Handmade by Emberly Smith</h4>
+        <a class="site-plan" href="https://emberlyns.github.io/ceramics/site-plan.html">Site Plan</a>
+        </div>
     </footer>
     </div>
 </body>

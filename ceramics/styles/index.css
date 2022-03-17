@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Noto+Serif+Display:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+#top {
+    display: grid;
+    grid-template-columns: 150px auto;
+
+}
+body {
+    width: 100%;
+
+}
+nav a{
+    color:#6B705C;
+    text-decoration: none;
+    float: left;
+}
+nav a:hover{
+    color: #FFE8D6;
+    background-color: #6B705C;
+}
+.nav{
+    padding: 35px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+    overflow: hidden;
+}
+.logo{
+    max-width: 70px;
+}
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+#hero-img{
+    max-width: 100%;
+
+}
+.main_title{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 500;
+    font-size: 3em;
+    text-align:center;
+    color: #CB997E;
+}
+.Purpose{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.purpose-title{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 400;
+    color: #6B705C;
+    padding-left: 40px;
+}
+.purpose-para{
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-left: 40px;
+    padding-right: 55px;
+}
+.Throwing{
+    max-width:100%;
+    grid-column: 1/2;
+    padding-left: 20px;
+
+}
+#purpose_script{
+    grid-column:2/3;
+}
+.statement{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.statement-title{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 400;
+    color: #6B705C;
+    padding-left: 20px;
+}
+.statement-para{
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-right: 30px;
+    padding-left: 20px;
+}
+.drying{
+    max-width:100%;
+    grid-column: 2/3;
+    border-right: 20px;
+}
+#statement_script{
+    grid-column:1/2;
+}
+footer {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-column: 2/3;
+    text-align: center;
+}
+#foot_info{
+    grid-column: 2/3;
+}
+.mail_title{
+    font-family: 'Noto Serif Display', serif;
+}
+.submit{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: 700;
+}
+.insta_logo{
+    max-width:35px;
+}
+.phone{
+    max-width:35px;
+}
+.email{
+    max-width:35px;
+}
+.copy{
+    font-family: 'Noto Serif Display', serif;
+}
+.site-plan{
+    font-family: 'Nanum Gothic', sans-serif;
+}
