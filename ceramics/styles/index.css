@@ -3,28 +3,31 @@
 #top {
     display: grid;
     grid-template-columns: 150px auto;
+    position: absolute;
 
 }
 body {
     width: 100%;
-
 }
-nav a{
-    color:#6B705C;
-    text-decoration: none;
-    float: left;
+main {
+    background-color: #FFE8D6;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 nav a:hover{
     color: #FFE8D6;
     background-color: #6B705C;
 }
-.nav{
-    padding: 35px;
+nav a{
+    padding: 20px;
     display: flex;
     justify-content: space-around;
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
-    overflow: hidden;
+    color:#6B705C;
+    background-color: #ffe8d6;
+    text-decoration: none;
+    float: left;
 }
 .logo{
     max-width: 70px;
@@ -36,29 +39,31 @@ nav a:hover{
 }
 #hero-img{
     max-width: 100%;
-
+    margin-top: -100px;
+    z-index: -1;
 }
 .main_title{
     font-family: 'Noto Serif Display', serif;
     font-weight: 500;
     font-size: 3em;
     text-align:center;
-    color: #CB997E;
+    color: white;
+    background-color:#CB997E;
 }
 .Purpose{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin: 30px;
 }
 .purpose-title{
     font-family: 'Noto Serif Display', serif;
     font-weight: 400;
-    color: #6B705C;
-    padding-left: 40px;
+    color: black;
 }
 .purpose-para{
     font-family: 'Nanum Gothic', sans-serif;
-    padding-left: 40px;
-    padding-right: 55px;
+    font-size: 1.15em;
+    color: #6B705C;
 }
 .Throwing{
     max-width:100%;
@@ -68,21 +73,26 @@ nav a:hover{
 }
 #purpose_script{
     grid-column:2/3;
+    margin: 20px;
+    padding-left: 40px;
+    vertical-align: middle;
 }
 .statement{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    margin: 30px;
 }
 .statement-title{
     font-family: 'Noto Serif Display', serif;
     font-weight: 400;
-    color: #6B705C;
-    padding-left: 20px;
+    color: black;
+    font-size: 1.5em;
+
 }
 .statement-para{
     font-family: 'Nanum Gothic', sans-serif;
-    padding-right: 30px;
-    padding-left: 20px;
+    font-size: 1.15em;
+    color:#6B705C;
 }
 .drying{
     max-width:100%;
@@ -91,18 +101,23 @@ nav a:hover{
 }
 #statement_script{
     grid-column:1/2;
+    margin: 20px;
+    vertical-align: middle;
+    margin-right:40px;
 }
 footer {
     display:grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-column: 2/3;
     text-align: center;
+    background-color:#B7B7A4;
 }
 #foot_info{
     grid-column: 2/3;
 }
 .mail_title{
     font-family: 'Noto Serif Display', serif;
+    color: #6B705C;
 }
 .submit{
     font-family: 'Nanum Gothic', sans-serif;
@@ -119,7 +134,15 @@ footer {
 }
 .copy{
     font-family: 'Noto Serif Display', serif;
+    color:#6B705C;
 }
 .site-plan{
     font-family: 'Nanum Gothic', sans-serif;
+    text-decoration: none;
+    color:#6B705C;
+    padding-bottom: 20px;
+}
+.site-plan:hover{
+    color:#FFE8D6;
+    background-color: #6B705C;
 }
