@@ -6,10 +6,10 @@
     position: absolute;
 
 }
-body {
+#bodyi {
     width: 100%;
 }
-main {
+main #home-grid {
     background-color: #FFE8D6;
     padding-bottom: 25px;
     padding-top: 25px;
@@ -145,4 +145,23 @@ footer {
 .site-plan:hover{
     color:#FFE8D6;
     background-color: #6B705C;
+}
+
+
+main .aboutme-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.aboutme {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0 auto;
+}
+.personal-img{
+    max-width: 100%;
+    max-height: 100%
+}
+.emyimage {
+    height: 100px;
+    width: 100px;
 }
