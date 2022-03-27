@@ -169,6 +169,7 @@ footer {
     padding-bottom: 50px;
     background-color: #fdfbed;
     margin-top:-10px;
+    grid-gap: 20px;
 }
 .emyimage {
     height: 500px;
