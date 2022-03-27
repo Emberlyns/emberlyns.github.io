@@ -217,5 +217,6 @@ footer {
     object-fit: scale-down;
 }
 .vi {
-    justify-items: right;
+    justify-content: right;
+
 }
