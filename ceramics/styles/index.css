@@ -19,6 +19,9 @@ nav a:hover{
     color: #FFE8D6;
     background-color: #6B705C;
 }
+.nav {
+    text-align: center;
+}
 nav a{
     padding: 20px;
     display: flex;
@@ -34,7 +37,6 @@ nav a{
     max-width: 70px;
 }
 #logo_link{
-    padding-top: 5px;
     justify-self: center;
     align-self: center;
 }
@@ -67,6 +69,9 @@ nav a{
     font-family: 'Noto Serif Display', serif;
     font-weight: 400;
     color: black;
+}
+.purpose_script h2 {
+    margin: auto 0;
 }
 .purpose-para{
     font-family: 'Nanum Gothic', sans-serif;
