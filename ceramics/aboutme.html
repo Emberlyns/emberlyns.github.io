@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Website</title>
     <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
 </head>
 <body id="bodyi">
     <div>
-        <header id="top">
+        <header id="top-about">
         <a id="logo_link" href="index.html">
             <img class="logo" src="Images/EmyLogo.png" alt="Logo">   
         </a>
@@ -19,13 +21,13 @@
             <a class="question" href="https://emberlyns.github.io/ceramics/process.html">Process and Questions</a>
         </nav>
     </header> 
+    <h2 class="aboutmeheading">About Me</h2>
     <main class="aboutme-grid">
         <section class="aboutme">
             <div class="emyimage">
                 <img class="personal-img" src="Images/personalphoto.jpg" alt="Personal Photo">
             </div>
             <div class="about-words">
-                <h2>About Me</h2>
                 <p class="mepara">My name is Emberly Smith, and I am a ceramic artist! I was born and raised in Gilbert, Arizona and have been surrounded by art my whole life. My grandma was a huge influence on me as I created my art style. I really love expressing my love of art through three-dimensional artwork. I started in ceramics in high school, and now I am currently earing my Bachelors of Art, Emphasis Three-Dimensional with a cluster in graphic Design from Brigham Young University – Idaho. Through my formal training, I have learned many techniques and skills that have made me a better artist. My work is functional and made specifically for you. I really love the thought of having work being personal and sentimental. I really love expressing who art can be more than just a piece of work, it can be a piece of beauty, intelligence, wonder, connection, and functionality. My work can be used in the everyday life, over and over.</p>
             </div>
         </section>
@@ -34,12 +36,12 @@
                 <img class="cups"  src="Images/greencup.jpeg" alt="Green Tumblers">
             </div>            
             <div class="pull">
-                <video autoplay muted>
+                <video loop autoplay muted>
                     <source src="Images/teacup-pulling.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="vi">
-                <video autoplay muted>
+                <video loop autoplay muted>
                     <source src="Images/trimmingvid250.mp4" type="video/mp4">
                 </video>
             </div>
@@ -47,28 +49,24 @@
     </main>
     <footer>
         <div id="foot_info">
-        <h3 class="mail_title">Join the Mailing List</h3>
+        <h2 class="mail_title">Join the Mailing List</h2>
         <form method="post" action="mailto:email@example.com" >
-            <input type="email" name="email" size="20" maxlength="30" />
+            <input class="input" type="email" name="email" size="20" maxlength="30" />
             <br><br/>            
             <input class="submit" type="submit" value="Submit" />
         </form>
-        <br/>
-        <div class="social">
-            <a href="https://www.instagram.com/emberlyns/" target="_blank">
-                <img class="insta_logo" src="Images/instalogo.png" alt="instagram logo">
-            </a>
-            <a href="tel:6023203335">
-                <img class="phone" src="Images/phoneimg.png" alt="phone">
-            </a>
-            <a href="mailto:emberly.smith01@gmail.com">
-                <img class="email" src="Images/mailimg.png" alt="Mail Image">
-            </a>
         </div>
-        <h4 class="copy"> &copy; 2022 Handmade by Emberly Smith</h4>
+        <div class="contact-site">
+            <h4 class="copy"> &copy; 2022 Handmade by Emberly Smith</h4>
+        <div class="social">
+            <a class="insta" href="https://www.instagram.com/emberlyns/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="phone" href="tel:6023203335"><i class="fa-solid fa-mobile-screen-button"></i></a>
+            <a class="mail" href="mailto:emberly.smith01@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </br>
         <a class="site-plan" href="https://emberlyns.github.io/ceramics/site-plan.html">Site Plan</a>
         </div>
-        <div></div>
+        </div>
     </footer>
     </div>
 </body>

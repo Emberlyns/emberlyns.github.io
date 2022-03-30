@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 150px auto;
     position: absolute;
-    padding-top: 20px;
+    padding-top: 35px;
 }
 #bodyi {
     width: 100%;
@@ -64,19 +64,21 @@ nav a{
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin: 30px;
+    margin-bottom: 45px;
+    margin-top: 45px;
 }
 .purpose-title{
     font-family: 'Noto Serif Display', serif;
     font-weight: 400;
     color: black;
-}
-.purpose_script h2 {
     margin: auto 0;
+    font-size: 2.23em;
 }
 .purpose-para{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.15em;
     color: #6B705C;
+    line-height: 1.5;
 }
 .Throwing{
     max-width:100%;
@@ -87,6 +89,7 @@ nav a{
 #purpose_script{
     grid-column:2/3;
     margin: 20px;
+    margin-top: 0;
     padding-left: 40px;
     vertical-align: middle;
 }
@@ -94,18 +97,21 @@ nav a{
     display: grid;
     grid-template-columns: 2fr 1fr;
     margin: 30px;
+    margin-top: 0;
 }
 .statement-title{
     font-family: 'Noto Serif Display', serif;
     font-weight: 400;
     color: black;
-    font-size: 1.5em;
+    font-size: 2.23em;
+    margin: auto 0;
 
 }
 .statement-para{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.15em;
     color:#6B705C;
+    line-height: 1.5;
 }
 .drying{
     max-width:100%;
@@ -115,48 +121,89 @@ nav a{
 #statement_script{
     grid-column:1/2;
     margin: 20px;
+    margin-top: 0;
     vertical-align: middle;
     margin-right:40px;
 }
 footer {
     display:grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-column: 2/3;
-    text-align: center;
+    text-align: left;
     background-color:#B7B7A4;
-    padding-bottom: 10px;
     margin-bottom: -10px;
 }
 #foot_info{
-    grid-column: 2/3;
+    grid-column: 1/2;
+    margin: 35px;
 }
 .mail_title{
     font-family: 'Noto Serif Display', serif;
-    color: #6B705C;
+    color: #414438;
+    font-size: 2.5em;
+    margin: 0px 0px 20px 0px;
+}
+.input {
+    width: 250px;
+    padding: 10px 0;
+    font-size:20px;
+    font-family: 'Nanum Gothic', sans-serif;
+    border: 30px;
+}
+.input:focus{
+    outline-color: #6B705C;;
 }
 .submit{
     font-family: 'Nanum Gothic', sans-serif;
     font-weight: 700;
+    border-color: none;
+    border: none;
+    color: #6B705C;
+    padding: 10px 16px;
 }
-.insta_logo{
-    max-width:35px;
+.submit:hover{
+    background-color: #414438;
+    color: white;
 }
-.phone{
-    max-width:35px;
-}
-.email{
-    max-width:35px;
+.contact-site{
+    text-align: right;
+    margin: 35px;
 }
 .copy{
     font-family: 'Noto Serif Display', serif;
     color:#6B705C;
+    display: inline-block;
+    margin: auto 0;
+}
+.social{
+    grid-column: 3/4;
+    text-decoration: none;
+    text-align: right;
+    margin: auto 0;
+    margin-top: 50px;
+}
+.insta{
+    font-size:35px;
+    color: #414438;
+}
+.phone{
+    font-size:35px;
+    color: #414438;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.mail{
+    font-size:35px;
+    color: #414438;
 }
 .site-plan{
     font-family: 'Nanum Gothic', sans-serif;
     text-decoration: none;
     color:#6B705C;
-    padding-bottom: 10px;
     background-color: #B7B7A4;
+    margin: auto 0;
+    display: inline-block;
+    margin-top: 25px; 
 }
 .site-plan:hover{
     color:#FFE8D6;
@@ -164,36 +211,57 @@ footer {
 }
 
 
-
+#top-about{
+    display: grid;
+    grid-template-columns: 150px auto;
+    padding-top: 35px;
+    padding-bottom: 20px;
+    Background-color: #fdfbed;
+    margin-top:-10px;
+}
+.aboutmeheading {
+    font-family: 'Noto Serif Display', serif;
+    margin: auto 0;
+    font-weight: 500;
+    font-size: 3em;
+    text-align:center;
+    color: white;
+    background-color:#CB997E;
+    padding:20px;
+    display:block;
+}
 .aboutme {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 1fr;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 25px;
     padding-left: 50px;
-    padding-bottom: 50px;
+    padding-right: 10px;
     background-color: #fdfbed;
-    margin-top:-10px;
     grid-gap: 20px;
 }
 .emyimage {
     height: 500px;
     width: 333.4px;
+    float: left;
+    z-index: 1;
 }
 .personal-img{
     max-width: 100%;
     max-height: 100%;
-    justify-items: center;
 }
 .about-words {
-    grid-column: 2/3;
-    padding-right: 200px;
+    grid-column: 1/4;
+    padding-right: 100px;
 }
 .about-words p {
     font-family: 'Nanum Gothic', sans-serif;
-}
-.about-words h2 {
-    font-family: 'Noto Serif Display', serif;
+    line-height: 1.7em;
+    font-size:1.17em;
+    margin-top: 0;
+    text-align: center;
+    z-index: -1;
 }
 
 .photos {
@@ -207,22 +275,28 @@ footer {
     max-width: 100%;
     object-fit: contain;
     max-height: 250px;
+    ;
 
 }
 .pull video{
     max-width: 100%;
     align-content: center;
     object-fit: contain;
+    justify-self: center;
 }
 .vi video{
     max-width: 100%;
     max-height: 250px;
     object-fit: contain;
+
 }
 .cu, .pull, .vi {
     object-fit: scale-down;
+    justify-self: center;
 }
-.vi {
-    justify-content: right;
-
+.cu{
+    justify-self: left;
+}
+.vi{
+    justify-self: right;
 }
