@@ -461,3 +461,13 @@ footer {
     display: block;
     margin: 20px 0;
 }
+
+
+
+#bodyg{
+    margin: auto 0;
+    padding: auto 0;
+}
+.photogallery-grid{
+    padding: 35px;
+}

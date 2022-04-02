@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="icon" type="image/x-icon" href="Images/EmyLogo.png">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        body {
+          font-family: 'Nanum Gothic', sans-serif;
+          background-color: rgb(218, 214, 193);
+        }
+        .main {
+          max-width: 10000px;
+          margin: auto;
+        }
+        h1 {
+          font-size: 50px;
+          word-break: break-all;
+        }
+        .row {
+          margin: 8px -16px;
+        }
+        .row,
+        .row > .column {
+          padding: 8px;
+        }
+        .column {
+          float: left;
+          width: 25%;
+        }
+        .row:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+        .content {
+          background-color: white;
+          padding: 10px;
+        }
+        @media screen and (max-width: 900px) {
+          .column {
+            width: 50%;
+          }
+        }
+        @media screen and (max-width: 600px) {
+          .column {
+            width: 100%;
+          }
+        }
+        </style>
+</head>
+<body id="bodyg">
+    <div>
+    <header id="top-about">
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="Images/EmyLogo.png" alt="Logo">   
+        </a>
+        <nav class="nav">
+            <a class="home" href="index.html">Home</a>
+            <a class="about" href="https://emberlyns.github.io/ceramics/aboutme.html">About Me</a>
+            <a class="question" href="https://emberlyns.github.io/ceramics/process.html">Process and Questions</a>
+            <a class="photogallery" href="https://emberlyns.github.io/ceramics/photogallery.html">Photo Gallery</a>
+        </nav>
+    </header> 
+    <h2 class="questionheading">Photo Gallery</h2>
+    <main class="photogallery-grid">
+        <div class="row">
+            <div class="column">
+              <div class="content">
+                <img src="photogalleryimages/gothicplate.jpeg" alt="Mountains" style="width:100%">
+                <h3>Gothic Style Stain Glass Plate</h3>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="photogalleryimages/bluemugset.jpeg" alt="Lights" style="width:100%">
+                <h3>Mystic Purple Mug and Plate</h3>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="photogalleryimages/horsehair.jpeg" alt="Nature" style="width:100%">
+                <h3>Horse Hair Designed Vase</h3>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="photogalleryimages/whipteapot.jpeg" alt="Mountains" style="width:100%">
+                <h3>Tea Pot</h3>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="photogalleryimages/mugfoots.jpeg" alt="Mountains" style="width:100%">
+                <h3>Trimmed Feet on Mugs and Plates</h3>
+              </div>
+            </div>    
+            <div class="column">
+              <div class="content">
+                <img src="photogalleryimages/topgroup.jpeg" alt="Mountains" style="width:100%">
+                <h3>Greenware Pieces</h3>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="photogalleryimages/pourer.jpeg" alt="Lights" style="width:100%">
+                <h3>Syrup Warmer</h3>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="photogalleryimages/greenfalse.jpeg" alt="Nature" style="width:100%">
+                <h3>Butter Dish</h3>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="photogalleryimages/stripe.jpeg" alt="Mountains" style="width:100%">
+                <h3>Mixing Bowl</h3>
+              </div>
+            </div>
+            <div class="column">
+              <div class="content">
+                <img src="photogalleryimages/checker.jpeg" alt="Mountains" style="width:100%">
+                <h3>Painted Cup</h3>
+              </div>
+            </div> 
+            <div class="column">
+                <div class="content">
+                  <img src="photogalleryimages/opendice.jpeg" alt="Mountains" style="width:100%">
+                  <h3>Die Cookie Jar</h3>
+                </div>
+            </div>            
+        </div>
+    </main>
+    <footer>
+        <div id="foot_info">
+        <h2 class="mail_title">Join the Mailing List</h2>
+        <form method="post" action="mailto:email@example.com" >
+            <input class="input" type="email" name="email" size="20" maxlength="30" />
+            <br><br/>            
+            <input class="submit" type="submit" value="Submit" />
+        </form>
+        </div>
+        <div class="contact-site">
+            <h4 class="copy"> &copy; 2022 Handmade by Emberly Smith</h4>
+        <div class="social">
+            <a class="insta" href="https://www.instagram.com/emberlyns/"><i class="fa-brands fa-instagram"></i></a>
+            <a class="phone" href="tel:6023203335"><i class="fa-solid fa-mobile-screen-button"></i></a>
+            <a class="mail" href="mailto:emberly.smith01@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+    </br>
+        <a class="site-plan" href="https://emberlyns.github.io/ceramics/site-plan.html">Site Plan</a>
+        </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
