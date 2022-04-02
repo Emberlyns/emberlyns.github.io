@@ -78,7 +78,10 @@ nav a{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.15em;
     color: #6B705C;
-    line-height: 1.5;
+    line-height: 1.7;
+}
+.emailhyper {
+    color:#6B705C;
 }
 .Throwing{
     max-width:100%;
@@ -111,7 +114,7 @@ nav a{
     font-family: 'Nanum Gothic', sans-serif;
     font-size: 1.15em;
     color:#6B705C;
-    line-height: 1.5;
+    line-height: 1.7;
 }
 .drying{
     max-width:100%;
@@ -318,7 +321,7 @@ footer {
 .Process {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
-    padding:50px 30px;
+    padding:50px 35px;
     background-color: #fdfbed;
 
 }
@@ -345,7 +348,7 @@ footer {
     justify-self: right;
 }
 .steps-title{
-    background-color: #CB997E;
+    background-color: #e0ae93;
     color: White;
     text-align: center;
     padding-top: 20px;
@@ -361,8 +364,8 @@ footer {
 .gallery {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color:#CB997E;
-    padding: 30px 20px 0px 20px;
+    background-color:#e0ae93;
+    padding: 30px 55px 0px 55px;
     grid-gap: 30px;
 }
 .image1 {
@@ -392,13 +395,13 @@ footer {
 .steps {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    background-color:#CB997E;
+    background-color:#e0ae93;
     grid-gap: 30px;
     font-size: .75em;
     text-align: center;
     line-height: 1.5;
     color: #fdfbed;
-    padding: 0px 20px 20px 20px;
+    padding: 0px 55px 20px 55px;
     font-family: 'Nanum Gothic', sans-serif;
 
 }
@@ -421,7 +424,7 @@ footer {
 .questionn {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px 50px;
+    padding: 50px 35px;
     background-color: #fdfbed;
 }
 .questionp {
@@ -441,7 +444,7 @@ footer {
     max-width: 100%;
     max-height: 300px;
     object-fit: contain;
-    justify-self: center;
+    justify-self: right;
     float: right;
 }
 .whyme {
