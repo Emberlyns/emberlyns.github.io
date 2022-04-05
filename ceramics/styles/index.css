@@ -551,6 +551,12 @@ footer {
     .main_title {
         padding: 20px 10px;
     }
+    .Throwing {
+        max-height: 200px;
+    }
+    .drying{
+        max-height: 250px;
+    }
     footer {
         display: block;
     }
