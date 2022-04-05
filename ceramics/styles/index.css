@@ -338,6 +338,9 @@ footer {
     margin: auto 0;
     padding: 0px 20px;
 }
+.tumblers-hide {
+    display:none;
+}
 .tumblers {
     grid-column: 3/4;
     max-width: 100%;
@@ -345,6 +348,7 @@ footer {
     object-fit: contain;
     justify-self: right;
 }
+
 .steps-title{
     background-color: #e0ae93;
     color: White;
@@ -467,4 +471,147 @@ footer {
 }
 .photogallery-grid{
     padding: 35px;
+}
+
+@media screen and (max-width:600px) {
+    .nav {
+        font-size: .8em;
+    }
+    .nav a {
+        padding: 15px 10px;
+    }
+    .Purpose{
+        display:block;
+    }
+    .Throwing {
+        float: left;
+        max-width: 200px;
+        height:100%;
+        margin-right: 20px;
+    }
+    #purpose_script {
+        padding-left: 0;
+    }
+    .statement {
+        display: block;
+        text-align: left;
+    }
+    .drying {
+        max-width: 200px;
+        height: 100%;
+        margin-left:20px;
+        justify-self: center;
+    }
+    .phone {
+        padding: 0 10px;
+    }
+    .aboutme {
+        display: block;
+    }
+    .emyimage {
+        float: left;
+        padding-right: 20px;
+        max-width: 100%;
+        max-height: 100%;
+        width: 200px;
+        height: 300px;
+    }
+    .Process {
+        display:block;
+    }
+    .trimming {
+        float:left;
+        max-width: 150px;
+        height: 100%;
+    }
+    .tumblers-hide {
+        display: block;
+        max-width: 150px;
+        height: 100%;
+        float: right;
+    }
+    .tumblers {
+        display: none;
+    }
+    .step1, .step2, .step3, .step4 {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width:450px) {
+    #top{
+        padding-top: 0;
+    }
+    .nav {
+        font-size: .8em;
+    }
+    .nav a {
+        padding: 8px 10px;
+    }
+    .main_title {
+        padding: 20px 10px;
+    }
+    footer {
+        display: block;
+    }
+    .mail_title {
+        padding-top: 10px;
+    }
+    .contact-site{
+        margin-bottom: 0;
+    }
+    .social {
+        margin-top: 25px;
+    }
+    .site-plan {
+        padding-bottom: 10px;
+    }
+    .photos {
+        display: block;
+        padding: 25px;
+    }
+    .pull{
+        padding: 10px 0px;
+    }
+    .Process {
+        padding: 25px 25px;
+    }
+    .trimming {
+        padding-right: 10px;
+    }
+    .tumblers {
+        display: block;
+    }
+    .tumblers-hide {
+        display: none;
+    }
+    .gallery {
+        display: block;
+    }
+    .image1 {
+        padding-bottom: 10px;
+    }
+    .image2 {
+        padding-bottom: 10px;
+    }
+    .image3 {
+        padding-bottom: 10px;
+    }
+    .steps {
+        display: block;
+    }
+    .step1 {
+        margin-top: 0px;
+        padding-top: 10px;
+    }
+    .questionn {
+        display: block;
+    }
+    .plate {
+        background-color: #fdfbed;
+        float: none;
+    }
+    #foot_info{
+        margin-top: 0px;
+    }
 }
