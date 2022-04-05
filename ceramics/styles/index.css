@@ -36,6 +36,9 @@ nav a{
 .logo{
     max-width: 70px;
 }
+.logobw {
+    display: none;
+}
 #logo_link{
     justify-self: center;
     align-self: center;
@@ -474,6 +477,15 @@ footer {
 }
 
 @media screen and (max-width:600px) {
+    .logo {
+        display:none;
+    }
+    .logobw {
+        display:block;
+        max-width: 70px;
+        border-radius: 35px;
+
+    }
     .nav {
         font-size: .8em;
     }
